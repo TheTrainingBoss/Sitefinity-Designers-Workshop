@@ -25,19 +25,20 @@ Sitefinity© Designers Workshop
 Table of Content
 ================
 
-[Responsive Web Design](#responsive-web-design)
+[Responsive Web Design](./Responsive%20Design/readme.md)
+----------------------------------------------------------
 
-[Widget Templates](#widget-templates)
+[Widget Templates](./Widget%20Templates/readme.md)
 
-[Page Templates](#page-templates)
+[Page Templates](./Page%20Templates/readme.md)
 
-[Themes](#themes)
+[Themes](./Themes/readme.md)
 
-[Sitefinity Feather](#sitefinity-feather)
+[Sitefinity Feather](./Feather/readme.md)
 
-[Creating Page Templates from MVC Layout Files](#creating-page-templates-from-mvc-layout-files)
+[Creating Page Templates from MVC Layout Files](./MVC%20Layouts/readme.md)
 
-[Widget Designers](#widget-designers)
+[Widget Designers](./Widget%20Designers/readme.md)
 
 > As a designer, you're interested in creating a functional, attractive
 > layout for the site. The major concern here is not how to create
