@@ -29,9 +29,6 @@ Table of Content
 [Page Templates](./Page%20Templates/readme.md)
 -----------------------------------------------
 
-[Themes](./Themes/readme.md)
-----------------------------
-
 [Sitefinity Feather](./Feather/readme.md)
 -----------------------------------------
 
@@ -42,7 +39,10 @@ Table of Content
 --------------------------------------------------
 
 [Widget Templates for Web Forms](./Widget%20Templates/readme.md)
--------------------------------------------------
+-----------------------------------------------------------------
+
+[Themes for Legacy Web Forms Technology](./Themes/readme.md)
+------------------------------------------------------------
 
 [Responsive Web Design for Web Forms](./Responsive%20Design/readme.md)
 ----------------------------------------------------------

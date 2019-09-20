@@ -1,18 +1,14 @@
 Sitefinity Feather
 ------------------
 
-The *Sitefinity Feather* module is a collection of resources and
+The *Sitefinity Feather* technology is a collection of resources and
 conventions to simplify the creation and management of widgets,
-layouts, and templates. Feather allows you to use convention-based,
-mobile-first UI frameworks with your Sitefinity site. The most popular
+layouts, and templates. Feather allows you to use convention-based
+UI framework with your Sitefinity site. The most popular
 of all these frontend frameworks is Bootstrap, but Feather also
 supports other frontend framework such as Semantic UI and Foundation.
 
-Feather is a free module, built into Sitefinity and is enabled by
-default on new Sitefinity installations. Feather adds a complete
-framework to take control the site's layout and markup. In this
-section we'll review a few of the features relevant to designers
-provided by Feather.
+Feather is built into Sitefinity and is enabled by default on new Sitefinity installations. Feather adds a complete framework to take control of the site's layout and markup. In this section we'll review a few of the features relevant to designers provided by Feather.
 
 **Note**: Although the technology behind Feather is the ASP.NET MVC
 development framework, the features available to designers involve
@@ -41,9 +37,10 @@ all of which are built with the same mobile-first, responsive design.
 
 ![](../media/image325.png)
 
-#### Widget Designer Framework
+Widget Designer Framework
+-------------------------
 
-You can create custom widget designers using a brand new framework
+You can create custom widget designers using a newer framework
 based on AngularJS. Included is a wide assortment of Angular
 Directives that make it simple to enable Sitefinity related field
 controls to your designer, including selectors for Pages, Images,
@@ -54,7 +51,8 @@ you to tap into a rich style collection to simplify your design, and
 even allows you to add custom commands to your widget beyond the
 included Editor.
 
-#### Convention-based customization
+Convention-based customization
+------------------------------
 
 Feather offers an intuitive convention for customizing and creating
 widget and layout templates. Simply create a file in the proper
@@ -70,16 +68,18 @@ Sitefinity Page Templates are created from these packages
 automatically, so you can immediately benefit from the new MVC layouts
 on your pages.
 
-#### Templating via Routing
+Templating via Routing
+-----------------------
 
 Feather uses a clever routing technique to make it easy to decide
 which templates to override and from where. Templates assigned from a
-Resource Package have the highest priority, then fall back to the root
-Mvc folder and finally back to the embedded resources, allowing you to
+**Resource Package** have the highest priority, then fall back to the root
+**Mvc** folder and finally back to the **embedded resources**, allowing you to
 override some or all templates by simply creating a file in the
 appropriate location.
 
-#### Layout Widget Templates
+Layout Widget Templates
+------------------------
 
 Another feature enabled by the Feather module is the set of layout
 templates from the different UI Resource Packages (Bootstrap,
@@ -89,7 +89,8 @@ columns to your pages, based on the framework of your choice.
 
 ![](../media/image326.png)
 
-#### Resource Packages
+Resource Packages
+-----------------
 
 Layout templates are actually sourced from a folder in the Sitefinity
 project root named ResourcePackages. Within each package folder is a
