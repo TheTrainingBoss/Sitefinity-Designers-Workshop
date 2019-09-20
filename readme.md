@@ -26,9 +26,6 @@ this document
 Table of Content
 ================
 
-[Widget Templates](./Widget%20Templates/readme.md)
--------------------------------------------------
-
 [Page Templates](./Page%20Templates/readme.md)
 -----------------------------------------------
 
@@ -43,6 +40,9 @@ Table of Content
 
 [Widget Designers](./Widget%20Designers/readme.md)
 --------------------------------------------------
+
+[Widget Templates for Web Forms](./Widget%20Templates/readme.md)
+-------------------------------------------------
 
 [Responsive Web Design for Web Forms](./Responsive%20Design/readme.md)
 ----------------------------------------------------------
