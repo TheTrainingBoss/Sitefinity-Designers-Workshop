@@ -22,7 +22,8 @@ about the screen minimum width and orientation. For more background
 information, check out Ethan Marcotte\'s seminal blog [Responsive Web
 Design](http://www.alistapart.com/articles/responsive-web-design/)
 
-#### Creating Rules
+Creating Rules
+--------------
 
 The first step is to create rules for the scenarios you expect to
 encounter. In our example, we\'ll create a small version of a simple
@@ -89,12 +90,11 @@ click the *More actions \> Preview for Smartphones & Tablets* option.
 ![](../media/image240.png)
 
 ![](../media/image241.jpeg)
-The preview shows how the page appears in
-iPhone, iPad and Samsung, Blackberry, Nokia and an ever-growing list
-of devices as they come on the market. You can also toggle the view
-between portrait or landscape orientations.
 
-#### Device Characteristics
+The preview shows how the page appears in iPhone, iPad, Samsung, Blackberry, Nokia and an ever-growing list of devices as they come on the market. You can also toggle the view between portrait or landscape orientations.
+
+Device Characteristics
+----------------------
 
 Sitefinity predefines a set of device characteristics that will
 trigger layout changes. The likely suspects are listed there, but you
@@ -113,7 +113,8 @@ base of the dialog.
 
 ![](../media/image243.png)
 
-#### Adding New Behaviors
+Adding New Behaviors
+--------------------
 
 Changing layout gets you part way there, but you may need to perform
 detailed styling of fonts, hide or show images, change margins or
