@@ -1,5 +1,5 @@
-Responsive Design
----------------------
+Responsive Design for Legacy Web Form Technology
+------------------------------------------------
 
 Your web design is expected to look good on standard desktop displays,
 iPhones, Androids, tablets or any device used during the life of your

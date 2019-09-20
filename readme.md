@@ -26,9 +26,6 @@ this document
 Table of Content
 ================
 
-[Responsive Web Design](./Responsive%20Design/readme.md)
-----------------------------------------------------------
-
 [Widget Templates](./Widget%20Templates/readme.md)
 -------------------------------------------------
 
@@ -46,6 +43,9 @@ Table of Content
 
 [Widget Designers](./Widget%20Designers/readme.md)
 --------------------------------------------------
+
+[Responsive Web Design for Web Forms](./Responsive%20Design/readme.md)
+----------------------------------------------------------
 
 As a designer, you're interested in creating a functional, attractive
 layout for the site. The major concern here is not how to create
