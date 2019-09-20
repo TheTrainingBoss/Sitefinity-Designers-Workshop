@@ -3,13 +3,13 @@ Page Templates
 
 Page templates allow you to have the same basic layout and content
 across multiple pages. For example, you may want certain pages to have
-the organization logo in the upper left hand corner and a copyright
+the organization logo in the upper left hand corner and a Logo
 notice centered at the bottom of the page. You can build all of your
 page templates entirely in Sitefinity, using drag and drop, without
 having to use any other tool.
 
 #### Note: 
-Page Templates can also be created from master pages and from
+Page Templates can also be created from master pages (Web Forms) and from
 MVC layout files
 
 Access page templates from the *Design \> Page Templates* menu option. 
@@ -37,16 +37,14 @@ pages that use the template and to preview those pages.
 This walk-through demonstrates creating a new page template and
 applying the new template to a page. The template will include an
 organization logo, language selector drop-down, navigation menu and
-footer with a copyright.
+footer with a Logo.
 
-1.  Click the *Create a template* button and enter information about the
-    template
+1.  Click the *Create a template* button and enter information about the template
 
-Enter the Name of the template. The name should describe how the
-template is used.
+Enter the Name of the template. The name should describe how the template is used.
 
 Optionally, you can specify a thumbnail image for the template. The
-recommended size is 105 x 80 pixels.
+recommended size is 260 x 240 pixels.
 
 2.  Select the Use template option. Click the *Select another Template*
     button to choose the 1 Column, Header, Footer template.
@@ -75,48 +73,38 @@ define proportions of areas within layout elements, and define
 ![](../media/image277.png)
 
 3.  From the *Drag layout elements* area of the right hand menu, drag
-    the 25% + 75% element onto the top row of the layout. This should
+    the Grid 3 + 9 element onto the top row of the layout. This should
     land right on top of the existing layout element.
 
 ![](../media/image278.jpeg)
 
 4.  Now the layout should look something like the screenshot below,
-    where the top row is divided into proportions of 25% and 75%.
+    where the top row is divided into proportions of 25% and 75% as a Bootstrap layout made out of 12 boxes of equal size.
 
 ![](../media/image280.jpeg)
 
-5.  Click the *Edit* button, click on *Classes & Labels* and enter
-    "Header" as the Wrapper name. Add "ccLogin" to Column 2. In the
-    *Labels* area, enter "Logo" for Column 1 and "Login" for Column 2.
+5.  Click the *Edit* button, click on *Classes* and enter "ccLogin" to Column 2 (this will be the name of the CSS class you want to apply to the Login placeholder). In the
+    *Labels* tab, enter "Logo" for Column 1 and "Login" for Column 2. Click the *Save* button to finish editing the layout element.
 
-Wrapper is used later to select the entire row in CSS. Column 2 is the
-CSS name for the second column that will contain a login name widget.
-Click the *Done* button to finish editing the layout element.
+![](../media/image281.png) ![](../media/image281B.png)
 
-![](../media/image281.png)
-
-6.  Drag the 100% layout element to a point just between the top and
+6.  Drag the Grid-12 layout element to a point just between the top and
     second rows. This will create a new row in the Header area of the
     layout.
 
 ![](../media/image282.png)
 
-7.  Click the *Edit* button, click on *Classes & Labels* and enter
-    "Menu" as the Wrapper name and "Menu" as the Column 1 label. Click
-    the *Done* button.
+7.  Click the *Edit* button, click on *Labels* and enter "Menu" as the Column 1 label. Click the *Save* button.
 
 ![](../media/image284.png)
 
-8.  Drag a 100% layout element to the Content area below the menu.
+8.  Drag a Grid-12 layout element to the Content area below the menu.
 
-9.  Click the *Edit* button, click on *Classes & Labels* and enter
-    "Main" as the Wrapper name and "Main" as the Column 1 label. Click
-    the *Done* button.
+9.  Click the *Edit* button, click on *Labels* and enter "Main" as the Column 1 label. Click the *Save* button.
 
-10. Drag a 100% layout element to the Footer area below the content.
+10. Drag a Grid-12 layout element to the Footer area below the content.
 
-11. Click the *Edit* button, click on *Classes & Label*s and enter
-    "Footer" as the Wrapper name.
+11. Click the *Edit* button, click on *Labels* and enter "Footer" as the Column 1 label.
 
 The layout should look like the screenshot below. Notice that the
 layout elements have the custom labels that you defined.
@@ -146,14 +134,12 @@ content that will appear on any page that uses this page template.
 
 ![](../media/image291.png)
 
-5.  Open the Login section of the right-hand menu and drag the *Login
-    name* widget to the Login layout area.
+5.  Open the Login section of the right-hand menu and drag the *Login/Logout button* widget to the Login layout area.
 
 ![](../media/image292.png)
 
 6.  Click the *Edit* link of the Login name widget. Scroll down to the
-    FormatString property and change it to *You\'re logged in as
-    {FirstName} {LastName}*. Click the *Save* button.
+    Template property and change it to *Login name*. Click the *Save* button.
 
 The page now displays something like the screenshot below.
 
@@ -167,8 +153,9 @@ the Styling section for directions on how to use CSS styling.
     widget to the Menu layout element below the image and login.
 
 8.  Click the *Edit* button of the Navigation widget. From the template
-    drop down, select the *Horizontal with dropdown menus* option. Click
-    the *Save* button to close the dialog.
+    drop down, select the *Horizontal* option. Click the *Save* button to close the dialog.
+
+![](../media/image295.jpeg)
 
 #### Note: 
 What if you don\'t want to display the home page in the
@@ -180,28 +167,24 @@ include.
 9.  Drag a *Content* block widget to the Footer layout area, at the
     bottom of the page.
 
-10. Click the *Edit* link. Add a copyright notice for your organization,
-    for example *Copyright 2016 Falafel Software*. Click the *More
-    formatting* options button. Place your text cursor just after the
-    word Copyright, drop down the list of symbols and select the
-    copyright symbol as shown below.
+10. Click the *Edit* link. Add a Logo notice for your organization,
+    for example *Logo 2019 CarConduit.com*. Click the *More
+    formatting* options button. 
 
-![](../media/image296.png)
-
-Select the text in the editor window, then click the Align Center button.
+11. Select the text in the editor window, then click the Align Center button.
 
 ![](../media/image297.png)
 
-Click the *Save* button. The page should now look like the screenshot below:
+12. Click the *Save* button. The page should now look like the screenshot below:
 
 ![](../media/image298.jpeg)
 
-11. Click the *Publish* button.
+13. Click the *Publish* button.
 
 #### Note: 
 Widgets in a page template can be marked as editable so that
 they can be tweaked later when they're on the page. For example, if
-you drop an Image widget on the page template, drop down the *More*
+you edit the Logo content widget on the page template, drop down the *More*
 menu and select the *Make editable on pages* option.
 
 ![](../media/image300.png)
@@ -211,62 +194,37 @@ The widget title bar will display "EDITABLE ON PAGES" to flag the change.
 ![](../media/image302.jpeg)
 
 Now you have access to the Edit link even when the widget is used on
-the page. You can change the image choice and the other settings for
-the widget. Be aware that the inheritance to the original widget will
-be broken so that changes to the original will not carry to the page
-where you edited the widget.
+the page. You can change the content and the other settings for
+the widget. **Be aware that the inheritance to the original widget will be broken so that changes to the original will not carry to the page where you edited the widget.**
 
-#### Using the New Page Template
+Using the New Page Template
+-----------------------------
 
 Now that the page template is created and the layout designed, you can
 create a new page using the template.
 
 1.  Select the *Pages* menu option.
 
-2.  Create a new page. In the Template area, select *Use template*, then
-    click the *Select another Template* button.
+2.  Create a new page. Choose the new template we just created for this page
 
 #### Note: 
-Be aware that changing the template after creating the page
-will \"pull the rug from underneath\" any current page design you
-already have in place.
+You can return to an earlier version of any page, before a template was changed by selecting the *Revision History* item from the Actions menu.
 
-Changing the template will typically break the layout and you will be
-starting over for that page.
-
-3.  Select the new custom template. Notice the warning that the template
-    change may break the existing layout for the page. If this template
-    will be used for most of your pages going forward, enable the *Use
-    the selected template* as a default template\... option.
-
-![](../media/image304.png)
-
-4.  Click the *Done* button to close the dialog.
-
-#### Note: 
-You can return to an earlier version of the page, before the
-template was changed by selecting the *Revision History* item from the
-Actions menu.
-
-hen you edit the page content, the page appears with the template
+When you edit the page content, the page appears with the template
 layout and items already showing. Notice that the login name,
-navigation menu and copyright notice all come from the template and
-cannot be changed here. The logo in the upper left corner has
-*Editable in pages* enabled, so the *Edit* link is visible for that
+navigation menu and Logo all come from the template and
+cannot be changed here. The Copyright at the bottom can be edited because we had *Editable in pages* enabled, so the *Edit* link is visible for that
 template element only. You can add new items around the template
 items, but you can\'t delete or sub-divide the layout elements.
 
 ![](../media/image306.jpeg)
 
-#### Duplicating Page Templates
+Duplicating Page Templates
+-------------------------
 
 ![](../media/image308.jpeg)
-To cut down on repeated work, you can
-duplicate existing page templates. Any changes to the original page
-template are inherited by the duplicate. You can setup hierarchies of
-templates so that page elements are defined one time only. For
-example, you could define a base page with an organization logo. By
-duplicating the page, you get the organization logo for free.
+
+To cut down on repeated work, you can duplicate existing page templates. Any changes to the original page template are inherited by the duplicate. You can setup hierarchies of templates so that page elements are defined one time only. For example, you could define a base page with an organization logo. By duplicating the page, you get the organization logo for free.
 
 To create a duplicate, start from *Design \> Page Templates*, then
 click the Actions menu *Duplicate* option. Give the template a new
@@ -279,16 +237,16 @@ needed. Think about the scenarios that might arise and try to design
 your template hierarchy to allow flexibility and maintenance with the
 least amount of upkeep.
 
-#### Styling
+Styling
+--------
 
 Custom changes to fonts, alignment, background and other appearance
 changes needs to be applied using styles. Styles can be added:
 
 -   Using the CSS (Cascading Style Sheet) widget. Styles can be added to
-    the widget directly as text or you can link to a CSS file.
+    the widget directly as text or you can link to a CSS file. (Please use CSS files and not inline CSS, PLEASE! :)
 
--   Using themes. Themes define a set of colors, fonts and CSS for the
-    site.
+-   Using themes. Themes define a set of colors, fonts and CSS for the site.
 
 You can use the CSS widget for quick, ad-hoc styling. You can have as
 many CSS widgets on the page as you like. The styles defined in the
@@ -302,8 +260,7 @@ block widget.
 1.  Select the *Design \> Page Templates* menu option.
 
 2.  Open the CarConduit One Column template created in the previous
-    [[Page]{.underline} [
-    Templates]{.underline}](#Creating_a_New_Template) section.
+    Page Templates section.
 
 3.  Drag a *CSS* widget to the page.
 
@@ -328,10 +285,9 @@ The *Write CSS* option allows you to add styles directly to the page.
 Styles can be added to the editor window, but be sure to leave out the
 \<style\> tag.
 
-5.  Select the *Write CSS* option and enter the style below to the
-    window:
+5.  Select the *Write CSS* option and enter the style below to the window:
 
-.Login
+.ccLogin
 {
   text-align:right;
 }
@@ -340,20 +296,19 @@ Styles can be added to the editor window, but be sure to leave out the
 
 ![](../media/image310.jpeg)
 
-7.  Click the *Preview* button. The top row, right column text should
-    align to the right side.
+7.  Click the *Preview* button. The top row, right column text should align to the right side.
 
 ![](../media/image311.jpeg)
 
 8.  Navigate back to editing the page and click the *Publish* button.
 
-#### Create Templates from Master Pages
+Create Templates from Master Pages (Legacy Web Forms Technique)
+---------------------------------------------------------------
 
 Master pages are a file-based standard that ASP.NET uses for
 templating. Master pages also have C\# or VB.NET code-behind unlike
 the Sitefinity template counterpart. Another advantage to master pages
-is that you can reuse whatever frameworks the page is using, such as
-[Bootstrap,](http://getbootstrap.com/) without having to reconfigure
+is that you can reuse whatever frameworks the page is using without having to reconfigure
 the page.
 
 Here's a minimal example masterpage with content place holders for the
