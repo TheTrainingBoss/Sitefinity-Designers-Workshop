@@ -1,10 +1,11 @@
-Widget Templates
-----------------
+Widget Templates for Legacy Web Forms Technology
+------------------------------------------------
 
 What if you don\'t like the way a widget is arranged or the type of
 content it contains? Widgets template allow you to tailor the layout.
 
 Accessing Widget Templates
+--------------------------
 
 You can access widget templates from the Administration menu and from
 the edit link of the widget.
@@ -21,7 +22,8 @@ it, or create an entirely new template.
 
 ![](../media/image250.png)
 
-#### Changing a Template
+Changing a Template
+-------------------
 
 This next walk-through assumes you already have one or more blog posts
 created. The blogs should have Tags defined.
@@ -51,7 +53,8 @@ to use, the list is divided into *Common data* fields you\'re likely
 to use and *Other data* that lists all possible fields. The *Template
 name* is used by Sitefinity to identify the template.
 
-#### To add new data to the template:
+To add new data to the template:
+--------------------------------
 
 1.  Place your cursor in the HTML just below the PostDate field, as
     shown in the screenshot below.
@@ -72,7 +75,8 @@ name* is used by Sitefinity to identify the template.
 
 ![](../media/image256.png)
 
-#### Creating a New Template
+Creating a New Template
+-----------------------
 
 What happens to your changed template when a new version of Sitefinity
 is installed? The template may be overwritten by the new installation.
@@ -148,7 +152,8 @@ save.
 
 ![](../media/image265.png)
 
-#### Using Custom Fields in Widgets
+Using Custom Fields in Widgets
+------------------------------
 
 Custom fields for pages and content types is listed in the widget
 editor, right along with the built-in Sitefinity fields. For example,
@@ -190,7 +195,8 @@ is defined in the custom field.
 
 ![](../media/image270.png)
 
-#### Managing Widget Templates
+Managing Widget Templates
+-------------------------
 
 Widget templates are managed from the *Design \> Widget Templates*
 menu option. You should be able to see your new widget in this list,
