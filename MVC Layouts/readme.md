@@ -533,4 +533,4 @@ Visual Studio solution, by following the same naming and path
 conventions as discussed in the previous section.
 
 **Next Topic:**
-[Widget Designers](./Widget%20Designers/readme.md)
+[Widget Designers](../Widget%20Designers/readme.md)

@@ -270,4 +270,4 @@ Tags area holds a Classification \> Tags widget.
 
 
 **Next Topic:**
-[Responsive Web Design for Web Forms](./Responsive%20Design/readme.md)
+[Responsive Web Design for Web Forms](../Responsive%20Design/readme.md)

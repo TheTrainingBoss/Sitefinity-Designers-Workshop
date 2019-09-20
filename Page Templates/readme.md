@@ -387,4 +387,4 @@ show up in the Sitefinity page template editor as layout areas.
 ![](../media/image314.jpeg)
 
 **Next Topic:**
-[Sitefinity Feather](./Feather/readme.md)
+[Sitefinity Feather](../Feather/readme.md)

@@ -80,4 +80,4 @@ For our example, we would create the file *DesignerView.MyDesigner.json* and pla
 
 
 **Next Topic:**
-[Widget Templates for Web Forms](./Widget%20Templates/readme.md)
+[Widget Templates for Web Forms](../Widget%20Templates/readme.md)
