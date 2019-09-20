@@ -267,3 +267,7 @@ Content block widget. Recent Posts uses a News widget and the Popular
 Tags area holds a Classification \> Tags widget.
 
 ![](../media/image321.jpeg)
+
+
+**Next Topic:**
+[Responsive Web Design for Web Forms](./Responsive%20Design/readme.md)

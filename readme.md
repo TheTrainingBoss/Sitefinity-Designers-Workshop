@@ -23,6 +23,18 @@ this document
 
 ![](./media/SitefinityTraining.png)
 
+As a designer, you're interested in creating a functional, attractive
+layout for your site. The major concern here is not how to create
+content, configure the site or perform heavy-duty programming tasks.
+
+This Workshop shows how to create Page Templates, responsive web pages that display
+well in any device, design master pages to customize the look and feel of
+the entire site and create templates for widgets and pages.
+
+The Workshop also goes into the Sitefinity Feather Module, a
+modern, convention-based framework for creating clean,
+mobile-friendly layouts in a simplified manner.
+
 Table of Content
 ================
 
@@ -45,16 +57,4 @@ Table of Content
 ------------------------------------------------------------
 
 [Responsive Web Design for Web Forms](./Responsive%20Design/readme.md)
-----------------------------------------------------------
-
-As a designer, you're interested in creating a functional, attractive
-layout for the site. The major concern here is not how to create
-content, configure the site or perform heavy-duty programming tasks.
-
-This section shows how to create responsive web pages that display
-well in any device, design master pages customize the look and feel of
-the entire site and create templates for widgets and pages.
-
-The section ends with a look at the Sitefinity Feather Module, a
-modern, convention-based framework for creating clean,
-mobile-friendly layouts in a simplified manner.
+----------------------------------------------------------------------

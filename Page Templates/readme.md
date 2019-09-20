@@ -385,3 +385,6 @@ show up in the Sitefinity page template editor as layout areas.
     ContentPlaceHolder areas are shown here with their IDs showing.
 
 ![](../media/image314.jpeg)
+
+**Next Topic:**
+[Sitefinity Feather](./Feather/readme.md)

@@ -103,3 +103,5 @@ the styles, scripts, images and other content required to style your
 page. By following a simple naming convention, your page templates
 will automatically be enhanced by the appropriate package.
 
+**Next Topic:**
+[Creating Page Templates from MVC Layout Files](./MVC%20Layouts/readme.md)

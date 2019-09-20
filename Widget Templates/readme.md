@@ -206,3 +206,6 @@ indicates where the template is used. To open the widget template for
 editing, click the link in the *Name* column.
 
 ![](../media/image271.png)
+
+**Next Topic:**
+[Themes for Legacy Web Forms Technology](./Themes/readme.md)

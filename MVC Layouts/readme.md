@@ -531,3 +531,6 @@ If the default widget templates are not sufficient to meet your needs
 you can create additional ones with this editor, as well as in your
 Visual Studio solution, by following the same naming and path
 conventions as discussed in the previous section.
+
+**Next Topic:**
+[Widget Designers](./Widget%20Designers/readme.md)

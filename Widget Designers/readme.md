@@ -77,3 +77,7 @@ extension .json, and add the following contents:
 > }
 
 For our example, we would create the file *DesignerView.MyDesigner.json* and place it in the same folder. Next time we load the editor we'll automatically see our custom designer template.
+
+
+**Next Topic:**
+[Widget Templates for Web Forms](./Widget%20Templates/readme.md)
