@@ -1,8 +1,8 @@
-Themes
-------
+Themes for Legacy Web Forms based pages
+----------------------------------------
 
 Themes define a set of colors, fonts and CSS for your page templates
-and widgets. To add a theme to your page template:
+and widgets. To add a theme to your page template: (**This is mainly for Hybrid or Web Forms based templates**)
 
 -   Create a directory structure
 
@@ -24,7 +24,7 @@ contains any CSS that should load automatically.
 #### Add CSS
 
 Create a main.css file in the Global directory and add the styles
-below. Note that the you can name the CSS file anything you want, all
+below. Note that you can name the CSS file anything you want, all
 CSS files in the Global directory will be loaded automatically.
 
 > .sfPublicWrapper {
@@ -68,15 +68,14 @@ Theme drop down list.
 After applying the theme, the styling changes reflect in the page
 appearance.
 
-![](../media/image319.jpeg)
-
-#### Tips for Using Master Pages
+Tips for Using Master Pages
+---------------------------
 
 You will need to perform some \"surgery\" to make the theme useful in
 Sitefinity. Using master pages inside a Sitefinity website involves
 three main pieces:
 
--   The master age itself. The master page file and its associated
+-   The master page itself: The master page file and its associated
     code-behind live in the App\_Master folder of the Visual Studio
     project.
 
@@ -86,8 +85,7 @@ three main pieces:
 -   The Sitefinity template is stored in the Sitefinity database. The
     template ties together the Master page and the Theme. The template
     is based on the master page and the theme is applied to the
-    template. The CarConduit files are included with projects with this
-    book.
+    template.
 
 In Visual Studio, you will need to edit the master file to work with
 Sitefinity. Once the general areas are setup in the master page, use
@@ -95,7 +93,8 @@ the template in Sitefinity to further subdivide layout elements and to
 add common content. Develop the layout to fit your requirements, then
 create areas for customization using the ContentPlaceHolder control.
 
-#### Here are some tips for performing "surgery" on the master page:
+Here are some tips for performing "surgery" on the master page:
+---------------------------------------------------------------
 
 -   Remove everything from the inside of the \<head\> tag. Sitefinity
     will take care of meta tags and style sheet references for us, so
