@@ -1,7 +1,7 @@
 Sitefinity© Designers Workshop
 ========================================
 
-*©2019 Alain "Lino" Tadros*
+*©2020 Alain "Lino" Tadros*
 
 All rights reserved. No parts of this work may be reproduced in any
 form or by any means - graphic, electronic, or mechanical, including
